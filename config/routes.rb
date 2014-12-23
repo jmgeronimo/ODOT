@@ -1,5 +1,7 @@
 Odot::Application.routes.draw do
-  resources :todo_lists   #inserted after creating scaffold!
+  resources :todo_lists do   #inserted after creating scaffold!
+    resources :todo_items
+  end
   root 'todo_lists#index'   #taken from line 9 below !
 
   # The priority is based upon order of creation: first created -> highest priority.
