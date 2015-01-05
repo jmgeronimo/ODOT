@@ -7,7 +7,7 @@ Odot::Application.routes.draw do
     end
   end
   root 'todo_lists#index'   #taken from line 9 below !
-
+#    additional "End"  at below  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -16,13 +16,11 @@ Odot::Application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
   # Example resource route with options:
   #   resources :products do
   #     member do
@@ -40,7 +38,6 @@ Odot::Application.routes.draw do
   #     resources :comments, :sales
   #     resource :seller
   #   end
-
   # Example resource route with more complex sub-resources:
   #   resources :products do
   #     resources :comments
